@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode - 사용자별 설정 (커밋 대상 아님)
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xcscmblueprint
+*.xccheckout
+
+# Xcode - 빌드 산출물
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode - 워크스페이스 사용자 데이터
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+Packages/
+
+# 주의: Package.resolved 는 커밋한다 (SEC-08 의존성 버전 고정)
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# 코드 서명 / 프로비저닝 (자격 정보 유출 방지)
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.certSigningRequest
+
+# 환경 변수 및 비밀 정보
+.env
+.env.*
+secrets.json
+
+# 로그
+*.log
